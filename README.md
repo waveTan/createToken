@@ -1,4 +1,4 @@
-# test nuls-js
+# test_cli3
 
 ## Project setup
 ```
