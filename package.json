@@ -1,5 +1,5 @@
 {
-  "name": "test_cli3",
+  "name": "create token",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -11,7 +11,7 @@
     "bootstrap-vue": "^2.0.0-rc.11",
     "less": "^3.9.0",
     "less-loader": "^4.1.0",
-    "nuls-sdk-js": "^0.1.0",
+    "nuls-sdk-js": "^0.2.0",
     "vue": "^2.6.6",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
@@ -36,7 +36,9 @@
       "plugin:vue/essential",
       "eslint:recommended"
     ],
-    "rules": {},
+    "rules": {
+      "no-console": "off"
+    },
     "parserOptions": {
       "parser": "babel-eslint"
     }
